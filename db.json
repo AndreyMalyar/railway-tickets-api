@@ -1,0 +1,133 @@
+{
+  "city": [
+      { "id": 1, "name": "New Delhi", "code": "NDLS" },
+      { "id": 2, "name": "Delhi", "code": "DLI" },
+      { "id": 3, "name": "Lucknow", "code": "LJN" },
+      { "id": 4, "name": "Mumbai", "code": "CSTM" },
+      { "id": 5, "name": "Bangalore", "code": "SBC" },
+      { "id": 6, "name": "Chennai", "code": "MAS" },
+      { "id": 7, "name": "Kolkata", "code": "KOAA" },
+      { "id": 8, "name": "Pune", "code": "PUNE" },
+      { "id": 9, "name": "Hyderabad", "code": "HYB" },
+      { "id": 10, "name": "Ahmedabad", "code": "ADI" },
+      { "id": 11, "name": "Agra", "code": "AGR" },
+      { "id": 12, "name": "Jaipur", "code": "JAI" },
+      { "id": 13, "name": "Varanasi", "code": "VNS" },
+      { "id": 14, "name": "Udaipur", "code": "UDR" },
+      { "id": 15, "name": "Jodhpur", "code": "JDH" },
+      { "id": 16, "name": "Amritsar", "code": "ATQ" },
+      { "id": 17, "name": "Goa", "code": "GOI" },
+      { "id": 18, "name": "Shimla", "code": "SLV" },
+      { "id": 19, "name": "Darjeeling", "code": "DAI" },
+      { "id": 20, "name": "Kochi", "code": "COK" },
+      { "id": 21, "name": "Mysore", "code": "MYQ" },
+      { "id": 22, "name": "Pushkar", "code": "PSH" },
+      { "id": 23, "name": "Rishikesh", "code": "DEH" },
+      { "id": 24, "name": "Hampi", "code": "JBP" },
+      { "id": 25, "name": "Surat", "code": "STV" },
+      { "id": 26, "name": "Kanpur", "code": "KNU" },
+      { "id": 27, "name": "Nagpur", "code": "NAG" },
+      { "id": 28, "name": "Indore", "code": "IDR" },
+      { "id": 29, "name": "Bhopal", "code": "BHO" },
+      { "id": 30, "name": "Visakhapatnam", "code": "VTZ" },
+      { "id": 31, "name": "Patna", "code": "PAT" }
+  ],
+  "food": [
+    {
+      "id": 1,
+      "image": "/paneerTikka.jpg",
+      "title": "Paneer Tikka Rice Bowl - Mini",
+      "price": 200
+    },
+    {
+      "id": 2,
+      "image": "/grilledChicken.jpg",
+      "title": "Grilled Tandoori Chicken With Dry Fruits",
+      "price": 500
+    },
+    {
+      "id": 3,
+      "image": "/alooParatha.jpg",
+      "title": "Aloo Paratha Curd Meal (2 Pcs)",
+      "price": 120
+    }
+  ],
+  "promo": [
+    {"id": "1",
+      "image": "/bgRec_2.jpg",
+      "title": "Planning your holidays"
+    },
+    {
+      "id": 2,
+      "image": "bgRec_1.jpg",
+      "title": "Train tourism packages"
+    }
+  ],
+  "trainData": [
+    {
+      "id": 1,
+      "number": "22426",
+      "name": "VANDE BHARAT",
+      "runsOn": "Everyday",
+        "departure": {
+          "time": "11:25 pm",
+          "station": "departure",
+          "date": "departureDate"
+        },
+        "arrival": {
+        "time": "7:25 am (departure + duration)",
+        "station": "arrival",
+        "date": "departure + duration"
+        },
+      "duration": "8 hours",
+      "classes": [
+        { "type": "3A", "status": "Avl", "available": "046", "price": 900 },
+        { "type": "2A", "status": "Avl", "available": "006", "price": 1000 },
+        { "type": "1A", "status": "WL", "available": "36", "price": 1200 }
+      ]
+    },
+    {
+      "id": 2,
+      "number": "22412",
+      "name": "ARUNACHAL EXP",
+      "runsOn": "Everyday",
+      "departure": {
+        "time": "11:45 pm",
+        "station": "departure",
+        "date": "departureDate"
+      },
+      "arrival": {
+        "time": "7:45 am (departure + duration)",
+        "station": "arrival",
+        "date": "departure + duration"
+      },
+      "duration": "8 hours",
+      "classes": [
+        { "type": "3A", "status": "Avl",  "available": "446", "price": 800 },
+        { "type": "2A", "status": "Avl", "available": "166", "price": 1000 },
+        { "type": "1A", "status": "WL", "available": "6", "price": 1400 }
+      ]
+    },
+    {
+      "id": 3,
+      "number": "12572",
+      "name": "SHATABDI EXPRESS",
+      "runsOn": "Everyday",
+      "departure": {
+        "time": "11:50 pm",
+        "station": "departure",
+        "date": "departureDate"
+      },
+      "arrival": {
+        "time": "9:50 am (departure + duration)",
+        "station": "arrival",
+        "date": "departure + duration"
+      },
+      "duration": "10 hours",
+      "classes": [
+        { "type": "3A", "status": "Avl", "available": "446", "price": 800 },
+        { "type": "2A", "status": "Avl", "available": "166", "price": 1000 }
+      ]
+    }
+  ]
+}
