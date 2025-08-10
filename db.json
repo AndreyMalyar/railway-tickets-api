@@ -54,12 +54,12 @@
   ],
   "promo": [
     {"id": 1,
-      "image": "/bgRec_1.jpg",
+      "image": "/RecBg-1.jpg",
       "title": "Planning your holidays"
     },
     {
       "id": 2,
-      "image": "/bgRec_2.jpg",
+      "image": "/RecBg-2.jpg",
       "title": "Train tourism packages"
     }
   ],
